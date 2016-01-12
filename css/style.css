@@ -1,7 +1,7 @@
 /* :nth-child Pseudo-classes------------------ */
 
 
-li:nth-child(-n+3) {
+div:nth-last-of-type(1) {
     background: #52bab3;
     color: white;
 }
