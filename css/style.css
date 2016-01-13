@@ -1,7 +1,14 @@
-/* :nth-child Pseudo-classes------------------ */
+:root {
+    background: #e3effb;
+}
 
-
-div:nth-last-of-type(1) {
-    background: #52bab3;
+:target {
+    background: #384947;
     color: white;
+}
+
+#col-c:target {
+    background: #eff1f2;
+    color: initial;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .2);
 }
